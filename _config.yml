@@ -3,7 +3,7 @@ title: Kenji Hub
 SEOTitle: Kenji Hub | Kenji Hub
 header-img: img/post-bg-desk.jpg
 email: kenjihah@gmail.com
-description: "记录成长进阶点滴,星光不问赶路人,时光不负有心人"
+description: "Less interests. More interest."
 keyword: "KenjiTalk, Kenji"
 url: "http://Kenji34.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/Kenji34/Kenji34.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "记录成长进阶点滴,星光不问赶路人,时光不负有心人"
+sidebar-about-description: "记录成长进阶点滴,星光不问赶路人,时光不负有心人。微信公众号：KenjiTalk"
 sidebar-avatar: /img/profile.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -19,7 +19,7 @@ sidebar-avatar: /img/profile.jpg     # use absolute URL, seeing it's used in bot
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     Kenjitalk
+zhihu_username:     KenjiTalk
 github_username:    Kenji34
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
@@ -86,7 +86,7 @@ ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 

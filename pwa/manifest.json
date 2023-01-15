@@ -1,15 +1,15 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
+  "name": "Kenji Hub",
+  "short_name": "Kenji Hub",
   "description": "A personal blog by engineer",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "icons/portrait.jpg",
     "sizes": "128x128",
-    "type": "image/png"
+    "type": "image/jpg"
   }, {
-    "src": "icons/pwa_icon_512.png",
+    "src": "icons/portrait.jpg",
     "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/jpg"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
