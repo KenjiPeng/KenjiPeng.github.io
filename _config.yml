@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: kunjian.peng@gmail.com
 description: "Less interests. More interest."
 keyword: "KenjiTalk, Kenji"
-url: "http://Kenji34.github.io"          # your host, for absolute URL
+url: "http://KenjiPeng.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Kenji34/Kenji34.github.io.git" # you code repository
+github_repo: "https://github.com/KenjiPeng/KenjiPeng.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,7 +64,7 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: Kenji34.github.io    #仓库名称
+  repo: KenjiPeng.github.io    #仓库名称
   owner: Kenji Peng    #github用户名
   admin: Kenji Peng
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
@@ -100,6 +100,6 @@ service-worker: true
 friends: [
     {
         title: "WY",
-        href: "http://Kenji34.github.io"
+        href: "http://KenjiPeng.github.io"
     }
 ]
