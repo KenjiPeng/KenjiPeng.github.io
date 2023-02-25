@@ -97,9 +97,9 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "WY",
-        href: "http://KenjiPeng.github.io"
-    }
-]
+#friends: [
+#    {
+#        title: "WY",
+#        href: "https://kenjipeng.top"
+#    }
+#]
