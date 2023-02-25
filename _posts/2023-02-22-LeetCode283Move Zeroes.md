@@ -35,7 +35,7 @@ tags:
 
      My Answer:
 
-```java
+```
 public void moveZeros(int[] nums){
         for (int i = 0;i<nums.length;i++){
             if (nums[i]==0){
