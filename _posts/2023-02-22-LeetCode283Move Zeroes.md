@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      LeetCode 283
-subtitle:   刷算法，进大厂
+subtitle:   [数组&矩阵]把数组中的 0 移到末尾
 date:       2023-02-22
 author:     Kenji
 header-img: img/post-bg-algorithm.jpg
@@ -11,29 +11,27 @@ tags:
     - 算法
     - Leetcode
 ---
-## 把数组中的 0 移到末尾
+## 数组与矩阵 LeetCode 283
 
-283. Move Zeroes (Easy)
+### 283. Move Zeroes (Easy) 
+#### 把数组中的 0 移到末尾
 
-     Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 
-     **Note** that you must do this in-place without making a copy of the array.
+**Note** that you must do this in-place without making a copy of the array.
 
-     **Example 1:**
+**Example 1:**
+```
+Input: nums = [0,1,0,3,12]
+Output: [1,3,12,0,0]
+```
+**Example 2:**
+```
+Input: nums = [0]
+Output: [0]
+```
 
-     ```
-     Input: nums = [0,1,0,3,12]
-     Output: [1,3,12,0,0]
-     ```
-
-     **Example 2:**
-
-     ```
-     Input: nums = [0]
-     Output: [0]
-     ```
-
-     My Answer:
+#### My Answer:
 
 ```
 public void moveZeros(int[] nums){
