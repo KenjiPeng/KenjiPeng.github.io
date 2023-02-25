@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      LeetCode 283
-subtitle:   [数组&矩阵]重塑矩阵
+title:      数组&矩阵 LeetCode 566
+subtitle:   Reshape the Matrix
 date:       2023-02-25
 author:     Kenji
 header-img: img/post-bg-algorithm.jpg

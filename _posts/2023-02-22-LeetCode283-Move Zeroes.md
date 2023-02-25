@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      LeetCode 283
-subtitle:   [数组&矩阵]把数组中的 0 移到末尾
+title:      数组&矩阵 LeetCode 283
+subtitle:   Move Zeroes
 date:       2023-02-22
 author:     Kenji
 header-img: img/post-bg-algorithm.jpg
@@ -11,6 +11,7 @@ tags:
     - 算法
     - Leetcode
 ---
+
 ## [数组与矩阵] LeetCode 283
 
 ### 283. Move Zeroes (Easy) 
