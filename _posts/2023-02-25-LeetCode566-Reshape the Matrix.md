@@ -42,7 +42,7 @@ Output: [[1,2],[3,4]]
 
 #### My Answer:
 
-```Java
+```
 public int[][] matrixReshape(int[][] mat, int r, int c) {
         if (mat.length * mat[0].length != r * c) {
             return mat;
@@ -69,7 +69,7 @@ public int[][] matrixReshape(int[][] mat, int r, int c) {
 
 #### Formal Answer:
 
-```Java
+```
 public int[][] matrixReshape(int[][] nums, int r, int c) {
     int m = nums.length, n = nums[0].length;
     if (m * n != r * c) {
