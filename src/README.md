@@ -14,7 +14,7 @@ projects:
     link:  http://kenjipeng.top/notes/
 
   - icon: project
-    name: CS notes
+    name: CS Notes
     desc: Record the road of technological growth
     link: https://kenjipeng.top/csnotes/
 
