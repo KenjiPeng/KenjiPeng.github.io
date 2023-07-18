@@ -71,7 +71,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "A passionate developer, CQF(Certificate in Quantitative Finance) candidate and manager of WeChat Official Account \"Kenji Talk\"",
+        description: "A passionate developer, CQF (Certificate in Quantitative Finance) candidate and manager of WeChat Official Account \"Kenji Talk\"",
         intro: "/intro.html",
       },
 

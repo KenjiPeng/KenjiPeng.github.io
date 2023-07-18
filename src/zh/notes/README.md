@@ -1,9 +1,9 @@
 ---
-title: 随笔
+title: 生活随笔
 index: false
 icon: laptop-code
 category:
-  - 随笔
+  - 生活随笔
 ---
 
 ## 目录

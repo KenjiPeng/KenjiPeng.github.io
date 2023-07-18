@@ -1,9 +1,9 @@
 ---
-icon: circle-info
+icon: user-secret
 cover: /assets/images/cover3.jpg
 ---
 
-# 介绍页
+# 关于我
 
 ***记录成长进阶点滴***
 ***星光不问赶路人***

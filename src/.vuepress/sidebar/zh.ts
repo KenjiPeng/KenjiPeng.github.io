@@ -4,7 +4,7 @@ export const zhSidebar = sidebar({
   "/zh/": [
     "",
     {
-      text: "随笔",
+      text: "生活随笔",
       icon: "laptop-code",
       prefix: "notes/",
       link: "notes/",
@@ -16,7 +16,10 @@ export const zhSidebar = sidebar({
       prefix: "csnotes/",
       children: "structure",
     },
-    "intro",
-    "slides",
+    {
+      text: "关于我",
+      icon: "user-tag",
+      link: "/zh/intro",
+    },
   ],
 });

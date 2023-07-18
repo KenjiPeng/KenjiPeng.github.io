@@ -16,7 +16,10 @@ export const enSidebar = sidebar({
       prefix: "csnotes/",
       children: "structure",
     },
-    "intro",
-    "slides",
+    {
+      text: "About Me",
+      icon: "user-tag",
+      link: "/intro",
+    },
   ],
 });

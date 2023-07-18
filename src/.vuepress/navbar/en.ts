@@ -19,9 +19,9 @@ export const enNavbar = navbar([
         ],
       },
       {
-        text: "DataBase",
+        text: "Database",
         icon: "pen-to-square",
-        prefix: "database/",
+        prefix: "Database/",
         children: [
           { text: "MySQL", icon: "pen-to-square",link: "1"},
           { text: "PostgreSQL",icon: "pen-to-square",link: "2"},
@@ -30,11 +30,12 @@ export const enNavbar = navbar([
           { text: "MongoDB",icon: "pen-to-square",link: "5"},
         ],
       }
-      // { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      // { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      // "tomato",
-      // "strawberry",
     ],
+  },
+  {
+    text: "About Me",
+    icon: "face-smile",
+    link: "/intro",
   },
   {
     text: "GitHub",

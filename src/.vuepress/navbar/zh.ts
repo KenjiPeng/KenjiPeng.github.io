@@ -4,7 +4,7 @@ export const zhNavbar = navbar([
   "/zh/",
   "/zh/notes/",
   {
-    text: "CS Notes",
+    text: "技术总结",
     icon: "pen-to-square",
     prefix: "/csnotes/",
     children: [
@@ -19,9 +19,9 @@ export const zhNavbar = navbar([
         ],
       },
       {
-        text: "DataBase",
+        text: "Database",
         icon: "pen-to-square",
-        prefix: "database/",
+        prefix: "Database/",
         children: [
           { text: "MySQL", icon: "pen-to-square",link: "1"},
           { text: "PostgreSQL",icon: "pen-to-square",link: "2"},
@@ -30,11 +30,12 @@ export const zhNavbar = navbar([
           { text: "MongoDB",icon: "pen-to-square",link: "5"},
         ],
       }
-      // { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      // { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      // "tomato",
-      // "strawberry",
     ],
+  },
+  {
+    text: "关于我",
+    icon: "face-smile",
+    link: "/intro",
   },
   {
     text: "GitHub",
