@@ -2,51 +2,43 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/zh/",
-  "/zh/demo/",
+  "/zh/notes/",
   {
-    text: "博文",
+    text: "CS Notes",
     icon: "pen-to-square",
-    prefix: "/zh/posts/",
+    prefix: "/csnotes/",
     children: [
       {
-        text: "苹果",
+        text: "Spring",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "spring/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "SpringFramework", icon: "pen-to-square", link: "1" },
+          { text: "SpringBoot", icon: "pen-to-square", link: "2" },
+          { text: "SpringCloud", icon: "pen-to-square", link: "3" }
         ],
       },
       {
-        text: "香蕉",
+        text: "DataBase",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "database/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "MySQL", icon: "pen-to-square",link: "1"},
+          { text: "PostgreSQL",icon: "pen-to-square",link: "2"},
+          { text: "Clickhouse",icon: "pen-to-square",link: "3"},
+          { text: "Redis",icon: "pen-to-square",link: "4"},
+          { text: "MongoDB",icon: "pen-to-square",link: "5"},
         ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      }
+      // { text: "樱桃", icon: "pen-to-square", link: "cherry" },
+      // { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
+      // "tomato",
+      // "strawberry",
     ],
   },
   {
-    text: "V2 文档",
+    text: "GitHub",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://github.com/KenjiPeng",
   },
 ]);

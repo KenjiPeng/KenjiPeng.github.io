@@ -2,51 +2,43 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
-  "/demo/",
+  "/notes/",
   {
-    text: "Posts",
+    text: "CS Notes",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/csnotes/",
     children: [
       {
-        text: "Apple",
+        text: "Spring",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "spring/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "SpringFramework", icon: "pen-to-square", link: "1" },
+          { text: "SpringBoot", icon: "pen-to-square", link: "2" },
+          { text: "SpringCloud", icon: "pen-to-square", link: "3" }
         ],
       },
       {
-        text: "Banana",
+        text: "DataBase",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "database/",
         children: [
-          {
-            text: "Banana 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "MySQL", icon: "pen-to-square",link: "1"},
+          { text: "PostgreSQL",icon: "pen-to-square",link: "2"},
+          { text: "Clickhouse",icon: "pen-to-square",link: "3"},
+          { text: "Redis",icon: "pen-to-square",link: "4"},
+          { text: "MongoDB",icon: "pen-to-square",link: "5"},
         ],
-      },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      }
+      // { text: "Cherry", icon: "pen-to-square", link: "cherry" },
+      // { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
+      // "tomato",
+      // "strawberry",
     ],
   },
   {
-    text: "V2 Docs",
+    text: "GitHub",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    link: "https://github.com/KenjiPeng",
   },
 ]);
